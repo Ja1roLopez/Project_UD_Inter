@@ -13,8 +13,11 @@ nav{
     background-color: #99DCAE;
 }
 #main{
+    display: flex;
+    min-height: 100vh;
     width: 100%;
     height: 1080px;
+    background-position: 50% 50%;
     background-image: url(img/back_groun_image_main.png);
 }
 #color_separator{
@@ -75,8 +78,8 @@ nav{
     align-items: center;
     justify-content:space-around;
 }
-#main_get_started button{
-    
+#main_get_started a{
+    font-size: 48px;
 }
 #slogan_2{
     display: grid;
@@ -84,7 +87,7 @@ nav{
     width: 100%;
     height: 842px;
     background-image:linear-gradient(to bottom, rgba(0,0,0,0), rgb(0, 0, 0, 1)), url(img/background_image_slogan.png);
-    
+    background-position: 50% 50%;
 }
 #content_slogan{
     display: grid;
@@ -153,6 +156,10 @@ nav{
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.container_4{
+    display: grid;
+    place-items: center;
+}
 .container_4 h1{
     text-align: center;
     margin: 0;
@@ -160,13 +167,162 @@ nav{
     font-family: CynthoPro-semibold;
     color: #0B2916;
 }
-#division_bg{
+
+.gallery{
+    margin-top: 10vh;
+    display: flex;
+    width: 1200px;
+    height: 790px;
+}
+.gallery img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+.gallery img:hover{
+    cursor: crosshair;
+    width: 960px;
+    opacity: 1;
+    filter: contrast(100%);
+}
+#salud{
+    padding-top: 190px;
+    padding-bottom: 190px;
+}
+.container_5{
+    width: 95%;
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.items{
+    display: grid;
+    align-items: center;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 60px;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr 1fr;
+}
+.items h2{
+    text-align: left;
+    margin-top: 0;
+    font-size: 42px;
+    font-family: CynthoPro-semibold;
+    color: #0B2916;
+}
+.items p{
+    text-align: left;
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: CynthoPro-medium;
+    color: #0B2916;
+}
+#interactive_img{
     position: relative;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
-    z-index: -1;
+    display: flex;
+    align-items: center;
+}
+#seguridad{
+    display: flex;
+    justify-content: space-between;
+}
+.container_6{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: #299049;
+    opacity: 0.8;
+    color:#fff ;
+    padding: 100px 50px;
+}
+.info_seguridad{
     width: 100%;
-    height: 440px;
-    background-color: #C6ECD1;
+    max-width: 490px;
+}
+.info_seguridad h2{
+    font-family: CynthoPro-semibold;
+    font-size: 42px;
+    margin: 0;
+}
+.info_seguridad h3{
+    margin-bottom: 0;
+    font-family: CynthoPro-medium;
+    font-size: 28px;
+}
+.info_seguridad p{
+    margin: 0;
+    font-family: CynthoPro-medium;
+    font-size: 18px;
+}
+.seg_image{
+    display: flex;
+    overflow: hidden;
+    width: 50%;
+    align-items: center;
+}
+footer{
+    overflow: hidden;
+    background-color: #99DCAE;
+    color: #0B2916;
+}
+.container_7{
+    
+    width: 95%;
+    
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer_content{
+    display: grid;
+    margin-top: 0px;
+    grid-column-gap: 90px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer_card{
+    padding-top: 30px;
+}
+.footer_card h2{
+    font-family: CynthoPro-semibold;
+    font-size: 28px;
+    margin: 0;
+    color: #0B2916;
+}
+.footer_card p{
+    font-family: CynthoPro-medium;
+    font-size: 20px;
+    margin-top: 15px;
+    color: #0B2916;
+}
+.footer_card a {
+    color: #0B2916;
+}
+.card_content{
+    position: relative;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    height: 200px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    
+}
+.icons_sm{
+    display: grid;
+    margin-top: 0px;
+    grid-column-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.copyright{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+.copyright h2{
+    margin: 0;
+    font-family: CynthoPro-Bold;
+    color: #fff;
 }
