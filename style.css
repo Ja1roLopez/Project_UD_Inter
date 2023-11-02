@@ -1,3 +1,6 @@
+*{
+    font-family: CynthoPro-regular;
+}
 body{
     margin: 0;
 }
@@ -11,6 +14,23 @@ nav{
     padding: 20px 30px;
     display: flex;
     background-color: #99DCAE;
+}
+a {
+    text-decoration: none !important;
+}
+.btn-outline-secondary {
+    --bs-btn-color: rgb(41, 112, 64) !important;
+    --bs-btn-border-color: rgb(41, 112, 64) !important;
+    --bs-btn-hover-color: rgb(41, 112, 64) !important;
+    --bs-btn-hover-bg:rgb(226, 246, 232) !important;
+    --bs-btn-hover-border-color:rgb(41, 112, 64) !important;
+}
+.form-control {
+    color: rgb(41, 112, 64)  !important;
+    border: 1px solid rgb(41, 112, 64)  !important;
+}
+.modal {
+    --bs-modal-color: rgb(41, 112, 64) !important;
 }
 #main{
     display: flex;
@@ -49,6 +69,16 @@ nav{
     height: 164px;
     text-align: center;
     color: #fff;
+}
+.modal_login{
+    background-color: rgb(63, 168, 97) !important;
+    color: #fff !important;
+    border-color: rgb(63, 168, 97) !important;
+}
+.modal_login:hover{
+    background-color: rgb(47, 138, 76) !important;
+    color: #fff !important;
+    border-color: rgb(47, 138, 76) !important;
 }
 #nav_buttons{
     display: flex;
@@ -98,6 +128,7 @@ nav{
 }
 #main_get_started a{
     font-size: 48px;
+    color: #215A34 !important;
 }
 #slogan_2{
     display: grid;
@@ -315,7 +346,7 @@ footer{
     color: #0B2916;
 }
 .footer_card a {
-    color: #0B2916;
+    color: #0B2916 !important;
 }
 .card_content{
     position: relative;
