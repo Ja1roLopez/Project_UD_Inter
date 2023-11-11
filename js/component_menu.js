@@ -19,9 +19,8 @@ class menumain extends HTMLElement{
                 <a href="../app/modulo2.html"><li><i title="Nueva Reserva" class="bx bx-plus bx-lg bx-spin-hover" href=""></i> </li></a>
             </ul>
             </nav>
-                <a href=":/db/logout.php">
                 <div class="exit">
-                <a title="Salir" class="bx bx-exit bx-lg bx-fade-right-hover" style="color:#215A34;"></a>
+                <a href="../db/logout.php" title="Salir" class="bx bx-exit bx-lg bx-fade-right-hover" style="color:#215A34;"></a>
                 </div>
                 </a>
             <div class="img_contain">
