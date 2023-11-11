@@ -15,7 +15,7 @@ class menumain extends HTMLElement{
             <hr class="div_contain">
             <nav>
             <ul>
-                <a href="../app/index.html"><li><i title="Inicio" class="bx bx-home bx-lg bx-burst-hover"></i></li></a>
+                <a href="../app/index.php"><li><i title="Inicio" class="bx bx-home bx-lg bx-burst-hover"></i></li></a>
                 <a href="../app/modulo2.html"><li><i title="Nueva Reserva" class="bx bx-plus bx-lg bx-spin-hover" href=""></i> </li></a>
             </ul>
             </nav>
