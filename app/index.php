@@ -29,7 +29,11 @@
             <menu-main></menu-main>
         </div>
         <div class="central">
-
+        <h2 id="main_title" >Tus Reservas Activas</h2>
+            <div class="card_booking">
+                <p>Test</p>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+            </div>
         </div>
     </section>
     <script src="../js/component_menu.js"></script>

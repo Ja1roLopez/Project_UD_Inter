@@ -29,7 +29,7 @@
         <div class="left_menu">
             <menu-main></menu-main>
         </div>
-        <div class="central">
+        <div class="central_profile">
             <h2 id="upd_title">Actualiza tus datos</h2>
             <!-- Formulario de actualización -->
             <form class="upd_form" method="post" action="../Back/user_update.php">

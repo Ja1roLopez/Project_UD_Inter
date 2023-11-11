@@ -8,8 +8,8 @@ class menumain extends HTMLElement{
         <div class="left_menu">
         <div class="profile_resume">
             <img src="../img/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="User">
-            <p>Jairo López</p>
-            <span>jairo@gmail.com</span>
+            <p>User</p>
+            <span>user@gmail.com</span>
             <a href="../app/profile_settings.php">Ver Perfil</a>
             </div>
             <hr class="div_contain">
