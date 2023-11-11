@@ -22,7 +22,7 @@ body{
 }
 #general_section .left_menu{
 
-    width: 150px;
+    width: 25vh;
     height: 100%;
     border-right: 1.5px dotted #245734;
     border-radius: 20px 0px 0px 20px;
@@ -32,7 +32,7 @@ body{
     height: auto;
 }
 #general_section nav{
-    padding-top: 91px;
+    padding-top: 0;
 }
 .left_menu ul{
     width: 100%;
@@ -42,12 +42,12 @@ body{
 .left_menu li {
     color: #215A34 !important;
     text-align: center;
-    padding: 35px 0px 15px 0px;
+    padding: 3vh 0px 0px 0px;
     list-style: none;
 }
 .left_menu .exit{
     text-align: center;
-    padding: 35px 0px 15px 0px;
+    padding: 3vh 0px 1.5vh 0px;
 
 }
 .profile_resume{
@@ -55,7 +55,7 @@ body{
     place-items: center;
 }
 .profile_resume img{
-    margin: 10px;
+    margin: 1vh 0vh 1vh 0vh;
     border-radius: 50%;
 }
 .profile_resume p{
