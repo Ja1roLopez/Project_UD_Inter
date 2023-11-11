@@ -10,7 +10,7 @@ class menumain extends HTMLElement{
             <img src="../img/illustration-of-human-icon-user-symbol-icon-modern-design-on-blank-background-free-vector.jpg" alt="User">
             <p>Jairo López</p>
             <span>jairo@gmail.com</span>
-            <a href="../app/profile_settings.html">Ver Perfil</a>
+            <a href="../app/profile_settings.php">Ver Perfil</a>
             </div>
             <hr class="div_contain">
             <nav>
