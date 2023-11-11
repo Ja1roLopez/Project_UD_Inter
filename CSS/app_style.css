@@ -53,6 +53,7 @@ body{
 .profile_resume{
     display: grid;
     place-items: center;
+    padding: 1vh;
 }
 .profile_resume img{
     margin: 1vh 0vh 1vh 0vh;
@@ -74,7 +75,7 @@ body{
     border: 0.5px solid #245734;
 }
 .img_contain{
-    padding: 6vh 20px 15px 20px;
+    padding: 11vh 6vh 1vh 6vh;
 }
 .central{
     width: calc(100% - 150px);
