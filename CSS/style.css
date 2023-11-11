@@ -343,6 +343,7 @@ footer{
     grid-template-columns: 1fr 1fr 1fr;
 }
 .footer_card{
+    text-align: center;
     padding-top: 30px;
 }
 .footer_card h2{
@@ -397,4 +398,41 @@ iframe{
     font-family: 'Ubuntu', sans-serif;
     font-weight: bold;
     background-color: aqua;
+}
+#mostrarFormularioBtn{
+    width: 236px;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 20px;
+    border-color: #ffffff00;
+    color: #fff;
+    background-color:#215A34;
+    font-size: 27px;
+    text-align: center;
+}
+#contact{
+    color: #0B2916;
+    width: 100%;
+    margin: 0px;
+    padding: 3rem;
+    background-color: #99DCAE !important;
+}
+#contact h2, label{
+    font-weight: bold;
+
+}
+.btn_contact{
+    width: 15vh;
+    margin-top: 2vh;
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 20px;
+    border-color: #ffffff00;
+    color: #fff;
+    background-color: #215A34;
+    font-size: 27px;
+    text-align: center;
+}
+#contactoForm{
+    padding: 1vh 4vh 1vh 4vh;
 }

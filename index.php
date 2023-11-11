@@ -223,7 +223,7 @@
                     <div class="card_content">
                         <h2>Hablemos!</h2>
                         <p>Ponte en contacto y nuestro equipo estarà encantado de ayudarte</p>
-                        <button id="mostrarFormularioBtn" href="#contact">Ir</button>
+                        <button id="mostrarFormularioBtn">Ir</button>
                     </div>
                 </div>
                 <div class="footer_card">
@@ -248,22 +248,22 @@
             </div>
         </div>
     </footer>
-    <div id="contact" class="container mt-5" style="display:none;">
+    <div id="contact" class="" style="display:none;">
         <h2>Formulario de Contacto</h2>
         <form id="contactoForm" method="post" action="/Project_UD_Inter/Back/contacto.php" >
             <div class="form-group">
                 <label for="nombre">Nombre:</label>
-                <input type="text" class="form-control" id="nombre" name="form_name" required>
+                <input type="text" class="form-control" id="nombre" name="form_name" placeholder="Nombre y Apellido" required>
             </div>
             <div class="form-group">
                 <label for="email">Email:</label>
-                <input type="email" class="form-control" id="email" name="form_mail" required>
+                <input type="email" class="form-control" id="email" name="form_mail" placeholder="name@example.com" required >
             </div>
             <div class="form-group">
                 <label for="mensaje">Mensaje:</label>
-                <textarea class="form-control" id="mensaje" name="form_message" rows="4" required></textarea>
+                <textarea class="form-control" id="mensaje" name="form_message" rows="4" placeholder="Cuentanos que sucede" required></textarea>
             </div>
-            <button name="contacto_btn" type="submit" class="btn btn-primary">Enviar</button>
+            <button name="contacto_btn" type="submit" class="btn_contact">Enviar</button>
         </form>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
