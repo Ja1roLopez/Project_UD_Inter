@@ -14,9 +14,14 @@
     mysqli_query($conexion, "UPDATE users SET
         names = '$names', lastname = '$lastname', birth = '$birth',
         mail = '$mail' WHERE id=$user_id");
-    
-    
-    
-    header('location:../app/profile_settings.php?status=1');
+
+        session_start();
+        $_SESSION['id'] = $user_id;
+        $_SESSION['nombre'] = $names;
+        $_SESSION['apellido'] = $lastname;
+        $_SESSION['nacimiento'] = $birth;
+        $_SESSION['correo'] = $mail;
+        
+    header('location:../app/index.html');
 }
 ?>
