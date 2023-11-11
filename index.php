@@ -251,15 +251,15 @@
     <div id="contact" class="" style="display:none;">
         <h2>Formulario de Contacto</h2>
         <form id="contactoForm" method="post" action="/Project_UD_Inter/Back/contacto.php" >
-            <div class="form-group">
+            <div>
                 <label for="nombre">Nombre:</label>
                 <input type="text" class="form-control" id="nombre" name="form_name" placeholder="Nombre y Apellido" required>
             </div>
-            <div class="form-group">
+            <div >
                 <label for="email">Email:</label>
                 <input type="email" class="form-control" id="email" name="form_mail" placeholder="name@example.com" required >
             </div>
-            <div class="form-group">
+            <div>
                 <label for="mensaje">Mensaje:</label>
                 <textarea class="form-control" id="mensaje" name="form_message" rows="4" placeholder="Cuentanos que sucede" required></textarea>
             </div>

@@ -78,7 +78,30 @@ body{
     padding: 11vh 6vh 1vh 6vh;
 }
 .central{
+    display: grid;
+    align-content: center;
     width: calc(100% - 150px);
     height: 100%;
     border-radius: 0px 20px 20px 0px;
+}
+#upd_title{
+    text-align: center;
+}
+.upd_form{
+    padding: 2vh 4vh;
+}
+.form-group{
+    padding: 0.5vh 0vh;
+}
+.btn_update{
+    width: 15vh;
+    margin-top: 2vh;
+    height: 5.5vh;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 20px;
+    border-color: #ffffff00;
+    color: #fff;
+    background-color: #215A34;
+    font-size: 27px;
+    text-align: center;
 }

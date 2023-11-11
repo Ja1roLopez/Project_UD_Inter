@@ -14,8 +14,9 @@
     if ($exist == 1){
         session_start();
         while($datos = mysqli_fetch_array($consulta)){
+            $_SESSION['id'] = $datos['id'];
             $_SESSION['nombre'] = $datos['names'];
-            $_SESSION['apelido'] = $datos ['lastname'];
+            $_SESSION['apellido'] = $datos ['lastname'];
             $_SESSION['nacimiento'] = $datos['birth'];
             $_SESSION['correo'] = $datos['mail'];
         }
